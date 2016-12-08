@@ -13,7 +13,6 @@ import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.content.Intent;
 
@@ -22,7 +21,7 @@ import static com.example.jeff.happyhokie.R.id.expandableListView;
 
 
 /*
- *  Created by Lauren Cahill on 12/4/2016
+ *  Created by Lauren Cahill
  */
 
 public class DescriptionActivity extends AppCompatActivity {
@@ -32,7 +31,7 @@ public class DescriptionActivity extends AppCompatActivity {
     List<String> expandableListTitle;
     private TextView title;
     private TextView deals;
-    //private GoogleMap mMap;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +63,7 @@ public class DescriptionActivity extends AppCompatActivity {
 
         // Load Details
         loadPage(rest);
-        System.out.println("LOADED PAGE!");
+        //System.out.println("LOADED PAGE!");
 
         // Initialize Map
     }
@@ -74,22 +73,14 @@ public class DescriptionActivity extends AppCompatActivity {
         // Set Title
         title.setText(restaurant);
 
-
-        // Get Deal details
-
+        //Just to create DealGetter object with correct day, day is not used elsewhere
         Calendar calendar = Calendar.getInstance();
         int day = calendar.get(Calendar.DAY_OF_WEEK);
+
+        //parse xml and populate list
         InputStream data = getResources().openRawResource(R.raw.data);
         DealGetter dealGetter = new DealGetter(day, data);
         ArrayList<FullDeal> weekDeals = dealGetter.getWholeWeek(restaurant);
-
-
-//        String details = "";
-//        for (int idx = 0; idx < weekDeals.size(); idx++) {
-//
-//        }
-
-        //deals.setText(allDeals.toString());
 
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
         expandableListTitle = new ArrayList<String>();
@@ -130,6 +121,7 @@ public class DescriptionActivity extends AppCompatActivity {
         });
     }
 
+    //Used to try and open google maps view within app.
     /*public void loadMap(View view) {
         CharSequence search = title.getText();
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:37.2296, -80.4139?q="+search));

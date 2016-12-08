@@ -3,16 +3,13 @@ package com.example.jeff.happyhokie;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
-
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 /**
- * Created by Jeff on 12/2/2016.
+ * Created by Jeff
  */
 
 //
@@ -34,7 +31,7 @@ public class DealGetter {
             xml = document;
         }
         catch(Exception e){
-            System.out.println("fucked up " + e.getStackTrace());
+            System.out.println("Error reading xml: " + e.getStackTrace());
         }
     }
 

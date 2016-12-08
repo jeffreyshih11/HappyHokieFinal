@@ -1,18 +1,21 @@
 package com.example.jeff.happyhokie;
 
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 
 /**
- * Created by Jeff on 12/5/2016.
+ * Created by Jeff
  */
 
+//A single food or drink deal, with times and details
+    //time vars were added for countdown timer, but was not implemented
 public class SingleDeal {
 
     private String dealName;
     private int start;
     private int end;
     private ArrayList<String> details;
+
 
     public SingleDeal (String name){
         dealName = name;
@@ -44,6 +47,7 @@ public class SingleDeal {
         details.add(s);
     }
 
+    //Unused time methods due to change in direction
     public void getTimes(String name){
 
         if(name.equals("No Food Deals") || name.equals("No Drink Deals") || name.equals("See more...")){
@@ -67,6 +71,11 @@ public class SingleDeal {
         }
     }
 
+    public boolean isPm (String time){
+        return time.contains("pm");
+    }
+
+    //to show the deal with details
     public String getDealWithDetails(){
         String s = dealName + "\n";
         if(details != null) {
@@ -76,7 +85,5 @@ public class SingleDeal {
         }
         return s;
     }
-    public boolean isPm (String time){
-        return time.contains("pm");
-    }
+
 }

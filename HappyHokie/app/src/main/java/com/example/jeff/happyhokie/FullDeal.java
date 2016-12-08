@@ -1,8 +1,6 @@
 package com.example.jeff.happyhokie;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +9,10 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 /**
- * Created by Jeff on 12/2/2016.
+ * Created by Jeff
  */
 
+//Object that stores all the deals on a certain day
 public class FullDeal {
 
     String restaurant;
@@ -41,6 +40,7 @@ public class FullDeal {
         return DrinkDeals;
     }
 
+    //gets all food and drink deals
     public List<SingleDeal> getAllDeals() {
         List<SingleDeal> deals = new ArrayList<SingleDeal>();
         for(int i = 0;i<DrinkDeals.size();i++) {
@@ -64,11 +64,14 @@ public class FullDeal {
     }
 
 
+    //adds details to the current drink deal which is also happens to be the last
+    //element in the current list of drink deals
     public void addDrinkDetails(String s){
         DrinkDeals.get(DrinkDeals.size()-1).addDetails(s);
     }
 
 
+    //for testing xml parsing
     public String toString(){
         String s = "";
         s += "Restaurant: " + restaurant + "\n";

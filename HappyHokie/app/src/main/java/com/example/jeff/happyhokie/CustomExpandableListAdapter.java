@@ -31,9 +31,12 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
     int day = calendar.get(Calendar.DAY_OF_WEEK);
     DealGetter dealGetter;
     ArrayList<FullDeal> dealList;
+
+    //to know if list is being made in main page or description page
     boolean description = false;
 
 
+    //constructor for all restaurants on a single day
     public CustomExpandableListAdapter(Context context, List<String> expandableListTitle, InputStream data
     ) {
         this.context = context;
@@ -43,6 +46,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         //this.expandableListDetail = expandableListDetail;
     }
 
+    //constructor for all days at a single restaurant
     public CustomExpandableListAdapter(Context context, List<String> expandableListTitle, InputStream data, String rest
     ) {
         description = true;
@@ -57,17 +61,14 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
 
         return this.dealList.get(listPosition).getAllDeals().get(expandedListPosition);
     }
-    //    @Override
-//    public Object getChild(int listPosition, int expandedListPosition) {
-//        return this.dealList.get(this.expandableListTitle.get(listPosition))
-//                .get(expandedListPosition);
-//    }
+
     @Override
     public long getChildId(int listPosition, int expandedListPosition) {
         return expandedListPosition;
     }
 
     @Override
+    //Populate the children inside the main list
     public View getChildView(int listPosition, final int expandedListPosition,
                              boolean isLastChild, View convertView, ViewGroup parent) {
 //        final String expandedListText = (String) getChild(listPosition, expandedListPosition);
@@ -79,8 +80,6 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         TextView expandedListTextView = (TextView) convertView
                 .findViewById(R.id.expandedListItem);
 
-
-        //TODO actually load in deals here
         SingleDeal deal = (SingleDeal) getChild(listPosition,expandedListPosition);
 
         if(description){
@@ -122,7 +121,9 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         return listPosition;
     }
 
+
     @Override
+    //Populate the main list
     public View getGroupView(int listPosition, boolean isExpanded,
                              View convertView, ViewGroup parent) {
         //String listTitle = (String) getGroup(listPosition);
@@ -131,19 +132,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
                     getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = layoutInflater.inflate(R.layout.list_group, null);
         }
-        /*TextView listTitleTextView = (TextView) convertView
-                .findViewById(R.id.listTitle);
-        String fill = "";
-        if(description){
-            fill = dealList.get(listPosition).sDay;
-        }
-        else{
-            fill = dealList.get(listPosition).getRestaurant();
-        }
-        //String rest2 = dealList.get(listPosition).getRestaurant();
-        listTitleTextView.setTypeface(null, Typeface.BOLD);
-        //listTitleTextView.setText(rest2);
-        listTitleTextView.setText(fill);*/
+
         if(description){
             ImageView banner = (ImageView) convertView.findViewById(R.id.banner);
             banner.setVisibility(View.GONE);
@@ -167,6 +156,7 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
         return convertView;
     }
 
+    //Selects correct banner for each restaurant
     private int getPic(String name){
         switch(name){
             case "622 North": return R.drawable.sixtwotwo;

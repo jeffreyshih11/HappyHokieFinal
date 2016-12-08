@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#ffffff"
+    android:background="#ffffff">
+
+    <TextView
+        android:text="RESTAURANT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/restName"
+        android:gravity="center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#660000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:maxLines="2"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/restName"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2">
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:id="@+id/expandableListView"
+            android:textColor="#ff6606"
+            android:background="#ffffff"
+            android:divider="@color/colorPrimary"
+            android:dividerHeight="1px"
+            android:childDivider="#ff6600"
+
+
+            android:layout_weight="1.00" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hhonly"
+            android:id="@+id/imageView3"
+            android:adjustViewBounds= "true"
+            android:maxHeight="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mapsicon"
+        android:id="@+id/getLocButton"
+        android:layout_weight="1.00"
+        android:maxWidth="1dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/linearLayout2"
+        android:cropToPadding="false"
+        android:background="@android:color/background_light" />
+
+
+
+</RelativeLayout>

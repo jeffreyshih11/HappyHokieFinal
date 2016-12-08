@@ -1,0 +1,764 @@
+<Blacksburg>
+    <Restaurant id="622 North">
+        <Day id="Monday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+            <Drink name="Wine Down Mondays (5:00pm-9:00pm)">
+                <Detail>50% off select bottled wines and draft beer</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+        </Day>
+        <Day id="Friday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+            <Food>See more...</Food>
+            <Food>622 North Brunch (10:00am-2:00pm)</Food>
+            <Drink name="Happy Hour (10:00am-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+        </Day>
+        <Day id="Sunday">
+            <Food>See more...</Food>
+            <Food>622 North Brunch (10:00am-2:00pm)</Food>
+            <Drink name="Happy Hour (10:00am-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="Blacksburg Taphouse">
+        <Day id="Monday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-6:00pm)">
+                <Detail>$3.00 Singles, $6.00 Doubles on Rail Liqours</Detail>
+                <Detail>$1.00 off all Draft Beer and Select Bottles/Cans</Detail>
+                <Detail>$1.00 off House Wine</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-6:00pm)">
+                <Detail>$3.00 Singles, $6.00 Doubles on Rail Liqours</Detail>
+                <Detail>$1.00 off all Draft Beer and Select Bottles/Cans</Detail>
+                <Detail>$1.00 off House Wine</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-6:00pm)">
+                <Detail>Special Pricing on Rail Liqours, Shelf Liquors, Beer, and Wine</Detail>
+            </Drink>
+            <Drink name="$1.00 Off Pints (4:00pm-12:00am)"></Drink>
+        </Day>
+        <Day id="Thursday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-6:00pm)">
+                <Detail>$3.00 Singles, $6.00 Doubles on Rail Liqours</Detail>
+                <Detail>$1.00 off all Draft Beer and Select Bottles/Cans</Detail>
+                <Detail>$1.00 off House Wine</Detail>
+            </Drink>
+            <Drink name="Flight Night (4:00pm-12:00am)"></Drink>
+        </Day>
+        <Day id="Friday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-6:00pm)">
+                <Detail>$3.00 Singles, $6.00 Doubles on Rail Liqours</Detail>
+                <Detail>$1.00 off all Draft Beer and Select Bottles/Cans</Detail>
+                <Detail>$1.00 off House Wine</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+
+            <Food>$16.00 Virginia Back Ribs (5:00pm-2:00am)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-6:00pm)">
+                <Detail>$3.00 Singles, $6.00 Doubles on Rail Liqours</Detail>
+                <Detail>$1.00 off all Draft Beer and Select Bottles/Cans</Detail>
+                <Detail>$1.00 off House Wine</Detail>
+            </Drink>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>Taphouse Brunch (10:00am-2:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (2:00pm-6:00pm)">
+                <Detail>$3.00 Singles, $6.00 Doubles on Rail Liqours</Detail>
+                <Detail>$1.00 Off all Draft Beer and Select Bottles/Cans</Detail>
+                <Detail>$1.00 Off House Wine</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="Boudreaux's">
+        <Day id="Monday">
+            <Food>See more...</Food>
+            <Drink name="Mint Monday (3:00pm-9:00pm)">
+                <Detail>$1 off mojitos</Detail>
+                <Detail>$1 off mint juleps</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+            <Food>See more...</Food>
+            <Drink name="Hurricane Tuesday (3:00pm-9:00pm)">
+                <Detail>50% off all Hurricanes</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+            <Food>See more...</Food>
+            <Drink name="Wine Wednesday (3:00pm-9:00pm)">
+                <Detail>50% off all bottles of wine</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+            <Food>See more...</Food>
+            <Drink name="Pint Night Thursday (3:00pm-9:00pm)">
+                <Detail>$1 off all draft beers</Detail>
+            </Drink>
+        </Day>
+        <Day id="Friday">
+            <Food>See more...</Food>
+            <Drink name="Local Friday Beer Special (3:00pm-9:00pm)">
+                <Detail>$1 off all Virginia craft beer and hard cider bottles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+
+            <Food>Boudreaux's Brunch (10:00am-3:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Brunch Drink Specials (10:00am-3:00pm)">
+                <Detail>$3 Mimosas, Cajun Marys, Screwdrivers, Greyhounds</Detail>
+            </Drink>
+            <Drink name="Local Saturday Beer Special (3:00am-9:00pm)">
+                <Detail>$1 off all Virginia craft beer and hard cider bottles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>Boudreaux's Brunch (10:00am-3:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Brunch Drink Specials (10:00am-3:00pm)">
+                <Detail>$3 Mimosas, Cajun Marys, Screwdrivers, Greyhounds</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+
+    <Restaurant id="The Cellar">
+        <Day id="Monday">
+
+            <Food>$6.25 Pita Pizza (11:00am-4:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy hour (4:00pm-7:00pm)">
+                <Detail>50 cents off pints</Detail>
+                <Detail>$1.00 off small pitchers</Detail>
+                <Detail>$2.00 off large pitchers</Detail>
+            </Drink>
+            <Drink name="Hammer Time (6:00pm-7:00pm)">
+                <Detail>$8.00 for any pitcher, no exceptions</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>$6.25 Pita Pizza (11:00am-4:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy hour (4:00pm-7:00pm)">
+                <Detail>50 cents off pints</Detail>
+                <Detail>$1.00 off small pitchers</Detail>
+                <Detail>$2.00 off large pitchers</Detail>
+            </Drink>
+            <Drink name="Hammer Time (6:00pm-7:00pm)">
+                <Detail>$8.00 for any pitcher, no exceptions</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+
+            <Food>$6.25 Pita Pizza (11:00am-4:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy hour (4:00pm-7:00pm)">
+                <Detail>50 cents off pints</Detail>
+                <Detail>$1.00 off small pitchers</Detail>
+                <Detail>$2.00 off large pitchers</Detail>
+            </Drink>
+            <Drink name="Hammer Time (6:00pm-7:00pm)">
+                <Detail>$8.00 for any pitcher, no exceptions</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+
+            <Food>$6.25 Pita Pizza (11:00am-4:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy hour (4:00pm-7:00pm)">
+                <Detail>50 cents off pints</Detail>
+                <Detail>$1.00 off small pitchers</Detail>
+                <Detail>$2.00 off large pitchers</Detail>
+            </Drink>
+            <Drink name="Hammer Time (6:00pm-7:00pm)">
+                <Detail>$8.00 for any pitcher, no exceptions</Detail>
+            </Drink>
+        </Day>
+        <Day id="Friday">
+
+            <Food>$6.25 Pita Pizza (11:00am-4:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy hour (4:00pm-7:00pm)">
+                <Detail>50 cents off pints</Detail>
+                <Detail>$1.00 off small pitchers</Detail>
+                <Detail>$2.00 off large pitchers</Detail>
+            </Drink>
+
+        </Day>
+        <Day id="Saturday">
+
+            <Food>$6.25 Pita Pizza (11:00am-4:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy hour (4:00pm-7:00pm)">
+                <Detail>50 cents off pints</Detail>
+                <Detail>$1.00 off small pitchers</Detail>
+                <Detail>$2.00 off large pitchers</Detail>
+            </Drink>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>$6.25 Pita Pizza (11:00am-4:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy hour (4:00pm-7:00pm)">
+                <Detail>50 cents off pints</Detail>
+                <Detail>$1.00 off small pitchers</Detail>
+                <Detail>$2.00 off large pitchers</Detail>
+            </Drink>
+            <Drink name="Hammer Time (6:00pm-7:00pm)">
+                <Detail>$8.00 for any pitcher, no exceptions</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="Champs">
+        <Day id="Monday">
+
+            <Food>$1 burgers/hot dogs(4:00pm-9:00)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(4:00pm-9:00pm)">
+                <Detail>Miller Lite: $1.75 Pints, $6.25 Pitchers</Detail>
+                <Detail>Yuengling: $2.75 Pints, $7.50 Pitchers</Detail>
+                <Detail>$0.50 off all bottles</Detail>
+                <Detail>$2.00 Singles, $4.00 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>$1.50 off burgers(4:00pm-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(4:00pm-9:00pm)">
+                <Detail>Miller Lite: $1.75 Pints, $6.25 Pitchers</Detail>
+                <Detail>Yuengling: $2.75 Pints, $7.50 Pitchers</Detail>
+                <Detail>$0.50 off all bottles</Detail>
+                <Detail>$2.00 Singles, $4.00 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+
+            <Food>$2.00 chilli bowl(4:00pm-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(4:00pm-9:00pm)">
+                <Detail>Miller Lite: $1.75 Pints, $6.25 Pitchers</Detail>
+                <Detail>Yuengling: $2.75 Pints, $7.50 Pitchers</Detail>
+                <Detail>$0.50 off all bottles</Detail>
+                <Detail>$2.00 Singles, $4.00 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+
+            <Food>40 cent wings and $3.00 anything that starts with "J"(4:00pm-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(4:00pm-9:00pm)">
+                <Detail>Miller Lite: $1.75 Pints, $6.25 Pitchers</Detail>
+                <Detail>Yuengling: $2.75 Pints, $7.50 Pitchers</Detail>
+                <Detail>$0.50 off all bottles</Detail>
+                <Detail>$2.00 Singles, $4.00 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Friday">
+
+            <Food>$3.99 Appetizers(4:00am-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(4:00pm-9:00pm)">
+                <Detail>Miller Lite: $1.75 Pints, $6.25 Pitchers</Detail>
+                <Detail>Yuengling: $2.75 Pints, $7.50 Pitchers</Detail>
+                <Detail>$0.50 off all bottles</Detail>
+                <Detail>$2.00 Singles, $4.00 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+
+            <Food>40 cent wings(4:00pm-2:00am)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(4:00pm-9:00pm)">
+                <Detail>Miller Lite: $1.75 Pints, $6.25 Pitchers</Detail>
+                <Detail>Yuengling: $2.75 Pints, $7.50 Pitchers</Detail>
+                <Detail>$0.50 off all bottles</Detail>
+                <Detail>$2.00 Singles, $4.00 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>40 cent wings(4:00pm-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(4:00pm-9:00pm)">
+                <Detail>Miller Lite: $1.75 Pints, $6.25 Pitchers</Detail>
+                <Detail>Yuengling: $2.75 Pints, $7.50 Pitchers</Detail>
+                <Detail>$0.50 off all bottles</Detail>
+                <Detail>$2.00 Singles, $4.00 Doubles</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="El Rodeo">
+        <Day id="Monday">
+
+            <Food>$3.99 Monday Lunch Combo (11:00am-3:00pm)</Food>
+            <Food>$5.99 Dinner Combos (3:00pm-10:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="$2 Bottled Beers (11:00am-9:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>$5.50 Tacos de Carne Asada (11:00am-10:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="$4.99 Jumbo Lime Margs (11:00am-9:00pm)">
+            </Drink>
+            <Drink name="$2 Bottled Beer (3:00pm-7:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+
+            <Food>$4.50 Lunch Chimichanga (11:00am-3:00pm)</Food>
+            <Food>$5.50 Chimichanga Dinner (3:00pm-3:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="$2 off Pitchers (11:00am-9:00pm)">
+            </Drink>
+            <Drink name="$5.99 Jumbo Texas (11:00am-9:00pm)">
+            </Drink>
+            <Drink name="$2 Bottled Beer (3:00pm-7:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+
+            <Food>$3.50 Speedy Gonzales Lunch (11:00am-3:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="$4.99 Flavored Margs (11:00am-9:00pm)">
+            </Drink>
+            <Drink name="$2.00 Bottled Beer (3:00pm-7:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Friday">
+
+            <Food>$4.99 Lunch Fajita (11:00am-3:00pm)</Food>
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Saturday">
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>622 North Brunch (10:00am-2:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (10:00am-9:00pm)">
+                <Detail>$2.50 Domestic Beers</Detail>
+                <Detail>$2.00 Rail Singles, $4.00 Rail Doubles</Detail>
+                <Detail>Select Wine Specials</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="Hokie House">
+        <Day id="Monday">
+
+            <Food>$6.50 Jumbo Wing special(11:00am-11:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(5:00pm-9:00pm)">
+                <Detail>$1 Singles, $2 Doubles, $3 Jumbos</Detail>
+                <Detail>$3 Bud Light, Miller Lite, PBR and Yuengling</Detail>
+                <Detail>$4.00 Blue Moon, Sam Adams, Sierra Nevada, Angry Orchard, Woodchuck</Detail>
+                <Detail>$5.00 Guiness, Craft and Local</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>20% off burgers(11:00am-11:55pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(5:00pm-9:00pm)">
+                <Detail>$1 Singles, $2 Doubles, $3 Jumbos</Detail>
+                <Detail>$3 Bud Light, Miller Lite, PBR and Yuengling</Detail>
+                <Detail>$4.00 Blue Moon, Sam Adams, Sierra Nevada, Angry Orchard, Woodchuck</Detail>
+                <Detail>$5.00 Guiness, Craft and Local</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+
+            <Food>20% off sandwiches(11:00am-11:55pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(5:00pm-9:00pm)">
+                <Detail>$1 Singles, $2 Doubles, $3 Jumbos</Detail>
+                <Detail>$3 Bud Light, Miller Lite, PBR and Yuengling</Detail>
+                <Detail>$4.00 Blue Moon, Sam Adams, Sierra Nevada, Angry Orchard, Woodchuck</Detail>
+                <Detail>$5.00 Guiness, Craft and Local</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+
+            <Food>20% off appetizer(11:00am-11:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(5:00pm-9:00pm)">
+                <Detail>$1 Singles, $2 Doubles, $3 Jumbos</Detail>
+                <Detail>$3 Bud Light, Miller Lite, PBR and Yuengling</Detail>
+                <Detail>$4.00 Blue Moon, Sam Adams, Sierra Nevada, Angry Orchard, Woodchuck</Detail>
+                <Detail>$5.00 Guiness, Craft and Local</Detail>
+            </Drink>
+            <Drink name="Pint Night(5:00pm-9:00pm)">
+                <Detail>$1.25 Pints of Bud Light, Miller Lite, Natty Light, PBR and Yuengling</Detail>
+                <Detail>$2.25 all other draft beer pints</Detail>
+            </Drink>
+
+        </Day>
+        <Day id="Friday">
+
+            <Food>Free french fries w/ burger(11:00am-11:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(5:00pm-9:00pm)">
+                <Detail>$1 Singles, $2 Doubles, $3 Jumbos</Detail>
+                <Detail>$3 Bud Light, Miller Lite, PBR and Yuengling</Detail>
+                <Detail>$4.00 Blue Moon, Sam Adams, Sierra Nevada, Angry Orchard, Woodchuck</Detail>
+                <Detail>$5.00 Guiness, Craft and Local</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+
+            <Food>$5.99/$9.99 Nacho deal(11:00am-11:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(5:00pm-9:00pm)">
+                <Detail>$1 Singles, $2 Doubles, $3 Jumbos</Detail>
+                <Detail>$3 Bud Light, Miller Lite, PBR and Yuengling</Detail>
+                <Detail>$4.00 Blue Moon, Sam Adams, Sierra Nevada, Angry Orchard, Woodchuck</Detail>
+                <Detail>$5.00 Guiness, Craft and Local</Detail>
+            </Drink>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>$6.50 Jumbo Wing special(11:00am-11:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour(5:00pm-9:00pm)">
+                <Detail>$1 Singles, $2 Doubles, $3 Jumbos</Detail>
+                <Detail>$3 Bud Light, Miller Lite, PBR and Yuengling</Detail>
+                <Detail>$4.00 Blue Moon, Sam Adams, Sierra Nevada, Angry Orchard, Woodchuck</Detail>
+                <Detail>$5.00 Guiness, Craft and Local</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="London Underground Pub">
+        <Day id="Monday">
+
+            <Food>$5.84 Sandwich and Side Lunch (11:00am-2:00pm</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>$5.84 Sandwich and Side Lunch (11:00am-2:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+
+            <Food>$5.84 Sandwich and Side Lunch (11:00am-2:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+
+            <Food>$5.84 Sandwich and Side Lunch (11:00am-2:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+            </Drink>
+        </Day>
+        <Day id="Friday">
+
+            <Food>$5.84 Sandwich and Side Lunch (11:00am-2:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)"></Drink>
+        </Day>
+        <Day id="Saturday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)"></Drink>
+        </Day>
+        <Day id="Sunday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)"></Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="Mellow Mushroom">
+        <Day id="Monday">
+
+            <Food>$9.99 Large One Topping Pizza (11:00am-11:00pm)</Food>
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>Half Off Appetizers Night (5:00pm-10:00pm)</Food>
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Wednesday">
+
+            <Drink name="Half Off Growlers Fills Day (11:00am-2:00pm)"></Drink>
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Thursday">
+
+            <Drink name="$3.00 Pint Day (11:00am-11:00pm)"></Drink>
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Friday">
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Saturday">
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>Brunch (11:00am-2:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="$3.00 Bloody Marys and Mimosas (11:00am-2:00pm)"></Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="PK's">
+        <Day id="Monday">
+
+            <Food>$10 Deep Dish Sicilian Pizza (11:00am-11:55pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+                <Detail>$1 Off Any Size Bud Light, Miller Lite, Coors Light, or Yuengling Draft</Detail>
+                <Detail>$1.50 House Highball Singles, $3 House Highball Doubles</Detail>
+                <Detail>$4.00 Long Islands, Green Dinosaurs, Blue Motorcycles</Detail>
+                <Detail>$8.00 PBR Buckets (5 Bottles)</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>$11.99 Footlong Subs (5:00pm-10:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+                <Detail>$1 Off Any Size Bud Light, Miller Lite, Coors Light, or Yuengling Draft</Detail>
+                <Detail>$1.50 House Highball Singles, $3 House Highball Doubles</Detail>
+                <Detail>$4.00 Long Islands, Green Dinosaurs, Blue Motorcycles</Detail>
+                <Detail>$8.00 PBR Buckets (5 Bottles)</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+
+            <Food>50% off Wing Bites (5:00pm-10:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+                <Detail>$1 Off Any Size Bud Light, Miller Lite, Coors Light, or Yuengling Draft</Detail>
+                <Detail>$1.50 House Highball Singles, $3 House Highball Doubles</Detail>
+                <Detail>$4.00 Long Islands, Green Dinosaurs, Blue Motorcycles</Detail>
+                <Detail>$8.00 PBR Buckets (5 Bottles)</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+
+            <Food>Tijuana Toss (5:00pm-10:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+                <Detail>$1 Off Any Size Bud Light, Miller Lite, Coors Light, or Yuengling Draft</Detail>
+                <Detail>$1.50 House Highball Singles, $3 House Highball Doubles</Detail>
+                <Detail>$4.00 Long Islands, Green Dinosaurs, Blue Motorcycles</Detail>
+                <Detail>$8.00 PBR Buckets (5 Bottles)</Detail>
+            </Drink>
+        </Day>
+        <Day id="Friday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)">
+                <Detail>$1 Off Any Size Bud Light, Miller Lite, Coors Light, or Yuengling Draft</Detail>
+                <Detail>$1.50 House Highball Singles, $3 House Highball Doubles</Detail>
+                <Detail>$4.00 Long Islands, Green Dinosaurs, Blue Motorcycles</Detail>
+                <Detail>$8.00 PBR Buckets (5 Bottles)</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)"></Drink>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>1/2 Price Nachos / PK's Pounder (12:00-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (11:00am-8:00pm)"></Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="Sharkey's">
+        <Day id="Monday">
+
+            <Food>FREE BURGER MONDAY Buy One Get One on all Burgers (11:00am-10:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.00 Off ALL BEERS!</Detail>
+                <Detail>$1.25 Singles, $2.50 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+
+            <Food>$8.50 Unlimited Salad and Potato Bar (11:00am-3:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.00 Off ALL BEERS!</Detail>
+                <Detail>$1.25 Singles, $2.50 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+
+            <Food>$8.50 Unlimited Salad and Potato Bar (11:00am-3:00pm)</Food>
+            <Food>$12.00 Pizza, Wings, Dessert Buffet (5:00pm-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.00 Off ALL BEERS!</Detail>
+                <Detail>$1.25 Singles, $2.50 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+
+            <Food>$8.50 Unlimited Salad and Potato Bar (11:00am-3:00pm)</Food>
+
+            <Food>10% Off All Food (11:00am-10:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.00 Off ALL BEERS!</Detail>
+                <Detail>$1.25 Singles, $2.50 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Friday">
+
+            <Food>$8.50 Unlimited Salad and Potato Bar (11:00am-3:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.00 Off ALL BEERS!</Detail>
+                <Detail>$1.25 Singles, $2.50 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+
+            <Food>$8.50 Unlimited Salad and Potato Bar (11:00am-3:00pm)</Food>
+            <Food>See more...</Food>
+            <Food>Bloody Mary Bar (11:00am-4:00pm)</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.00 Off ALL BEERS!</Detail>
+                <Detail>$1.25 Singles, $2.50 Doubles</Detail>
+            </Drink>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>$8.50 Unlimited Salad and Potato Bar (11:00am-3:00pm)</Food>
+            <Food>Bloody Mary Bar (11:00am-4:00pm)</Food>
+            <Food>$12.00 Unlimited Wing, Pizza, Taco Buffet (5:00pm-9:00pm)</Food>
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.00 Off ALL BEERS!</Detail>
+                <Detail>$1.25 Singles, $2.50 Doubles</Detail>
+            </Drink>
+        </Day>
+    </Restaurant>
+    <Restaurant id="Top of the Stairs">
+        <Day id="Monday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.75 Single Highballs, $3.50 Doubles</Detail>
+                <Detail>$1.25 Domestic Bottles</Detail>
+                <Detail>$1 16oz, $1.50 24oz, $3.50 Pitcher of Budweiser or Miller Lite</Detail>
+                <Detail>$1.25 16oz, $1.75 24oz, $4 Pitcher of Shiner Boch</Detail>
+                <Detail>$2 16oz, $2.50 24oz, $6 Pitcher of Magic Hat #9 or Seasonal</Detail>
+            </Drink>
+        </Day>
+        <Day id="Tuesday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.75 Single Highballs, $3.50 Doubles</Detail>
+                <Detail>$1.25 Domestic Bottles</Detail>
+                <Detail>$1 16oz, $1.50 24oz, $3.50 Pitcher of Budweiser or Miller Lite</Detail>
+                <Detail>$1.25 16oz, $1.75 24oz, $4 Pitcher of Shiner Boch</Detail>
+                <Detail>$2 16oz, $2.50 24oz, $6 Pitcher of Magic Hat #9 or Seasonal</Detail>
+            </Drink>
+        </Day>
+        <Day id="Wednesday">
+            <Food>See more...</Food>
+            <Food>$10.95 All You Can Eat Ribs (5:00pm-8:30pm)</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.75 Single Highballs, $3.50 Doubles</Detail>
+                <Detail>$1.25 Domestic Bottles</Detail>
+                <Detail>$1 16oz, $1.50 24oz, $3.50 Pitcher of Budweiser or Miller Lite</Detail>
+                <Detail>$1.25 16oz, $1.75 24oz, $4 Pitcher of Shiner Boch</Detail>
+                <Detail>$2 16oz, $2.50 24oz, $6 Pitcher of Magic Hat #9 or Seasonal</Detail>
+            </Drink>
+        </Day>
+        <Day id="Thursday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.75 Single Highballs, $3.50 Doubles</Detail>
+                <Detail>$1.25 Domestic Bottles</Detail>
+                <Detail>$1 16oz, $1.50 24oz, $3.50 Pitcher of Budweiser or Miller Lite</Detail>
+                <Detail>$1.25 16oz, $1.75 24oz, $4 Pitcher of Shiner Boch</Detail>
+                <Detail>$2 16oz, $2.50 24oz, $6 Pitcher of Magic Hat #9 or Seasonal</Detail>
+            </Drink>
+        </Day>
+        <Day id="Friday">
+            <Food>See more...</Food>
+            <Drink name="Happy Hour (4:00pm-9:00pm)">
+                <Detail>$1.75 Single Highballs, $3.50 Doubles</Detail>
+                <Detail>$1.25 Domestic Bottles</Detail>
+                <Detail>$1 16oz, $1.50 24oz, $3.50 Pitcher of Budweiser or Miller Lite</Detail>
+                <Detail>$1.25 16oz, $1.75 24oz, $4 Pitcher of Shiner Boch</Detail>
+                <Detail>$2 16oz, $2.50 24oz, $6 Pitcher of Magic Hat #9 or Seasonal</Detail>
+            </Drink>
+        </Day>
+        <Day id="Saturday">
+            <Food>See more...</Food>
+        </Day>
+        <Day id="Sunday">
+
+            <Food>$12.00 Unlimited Wing, Pizza, Taco Buffet (5:00pm-9:00pm)</Food>
+            <Food>See more...</Food>
+        </Day>
+    </Restaurant>
+</Blacksburg>

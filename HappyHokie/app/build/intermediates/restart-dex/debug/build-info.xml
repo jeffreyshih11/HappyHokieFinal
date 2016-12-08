@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="1012356641734364"
+    token="4890894414804111878"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+
+    <build
+        timestamp="1008663766057119"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1010530770572221"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1011461647774651"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1011683226006780"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\builds\debug\1011683226006780\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1011707991486225"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\builds\debug\1011707991486225\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1012040291129032"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\builds\debug\1012040291129032\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1012058086420318"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\builds\debug\1012058086420318\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1012356641734364"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Jeff\Documents\jeffrey\school\senior\design\happy hokie\HappyHokie\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>

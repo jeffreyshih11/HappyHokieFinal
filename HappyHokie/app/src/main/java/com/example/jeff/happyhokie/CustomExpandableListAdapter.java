@@ -87,6 +87,11 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
             String d= deal.getDealWithDetails();
             if(!d.contains("See more...")){
                 expandedListTextView.setText(d);
+                expandedListTextView.setVisibility(View.VISIBLE);
+
+            }
+            else if(d.contains("See more...")){
+                expandedListTextView.setVisibility(View.GONE);
             }
             //expandedListTextView.setText(deal.getDealWithDetails());
         }
